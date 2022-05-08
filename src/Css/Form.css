@@ -1,0 +1,23 @@
+
+form .flex-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+form .flex-form .form-group label {
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+form .flex-form .form-group {
+    width: 48%;
+}
+form .flex-form .form-group input {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid rgb(116, 116, 116);
+    outline: none;
+    font-size: 1.1rem;
+}
